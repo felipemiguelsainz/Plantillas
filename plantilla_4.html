@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Simple Transactional Email</title>
+        <style>
+    *{
+        font-family: Arial, sans-serif;
+    }
+    td > div{
+        padding: 2% 0%;
+    }
+    .fecha{
+        text-align: end;
+        width: 100%;
+    }
+    .footer{
+        text-align: center;
+        font-size: 12px;
+        color: #385D8B;
+    }
+    .img2{
+        width: 100%;
+        height: auto;
+    }
+    @media only screen and (max-width: 620px) {
+    table.body h1 {
+        font-size: 28px !important;
+        margin-bottom: 10px !important;
+    }
+
+    table.body p,
+    table.body ul,
+    table.body ol,
+    table.body td,
+    table.body span,
+    table.body a {
+        font-size: 16px !important;
+    }
+
+    table.body .wrapper,
+    table.body .article {
+        padding: 10px !important;
+    }
+
+    table.body .content {
+        padding: 0 !important;
+    }
+
+    table.body .container {
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    table.body .main {
+        border-left-width: 0 !important;
+        border-radius: 0 !important;
+        border-right-width: 0 !important;
+    }
+
+    table.body .btn table {
+        width: 100% !important;
+    }
+
+    table.body .btn a {
+        width: 100% !important;
+    }
+
+    table.body .img-responsive {
+        height: auto !important;
+        max-width: 100% !important;
+        width: auto !important;
+    }
+    }
+    @media all {
+    .ExternalClass {
+        width: 100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+        line-height: 100%;
+    }
+
+    .apple-link a {
+        color: inherit !important;
+        font-family: inherit !important;
+        font-size: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        text-decoration: none !important;
+    }
+
+    #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+    }
+    }
+        </style>
+    </head>
+    <body style="background-color: #f6f6f6; font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+        <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">This is preheader text. Some clients will show this text as a preview.</span>
+        <!--Tabla de fondo-->
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #D3D3D3; width: 100%;" width="100%" bgcolor="#f6f6f6"><!--Cambiar color de Black a #f6f6f6-->
+        <tr>
+            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">&nbsp;</td>
+            <td class="container" style="font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; max-width: 580px; padding: 10px; width: 580px; margin: 0 auto;" width="580" valign="top">
+                <div class="content" style="box-sizing: border-box; display: block; margin: 0 auto; max-width: 580px; padding: 10px;">
+                    <!--Tabla de Contenido-->
+                    <table role="presentation" class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #ffffff; border-radius: 3px; width: 100%;" width="100%">
+                        <tr>
+                            <td class="wrapper" style="font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 20px;" valign="top">
+                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                                    <tr>
+                                        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">
+                                            <!--Cuerpo de mensaje-->
+                                            <div>Ref: [Folio OA]</div>
+                                            <div>Buenos Aires, [fecha]</div>
+                                            <div>Sr/Sra. [Nombre y apellido del Cliente]</div>
+                                            <div>De nuestra mayor consideración:</div>
+                                            <div>Nos ponemos en contacto con usted, en relación al saldo pendiente de pago que mantiene con AMERICAN EXPRESS ARGENTINA S.A. a fin de ofrecerle la posibilidad de cancelar su deuda, correspondiente a la tarjeta [producto] terminación [últimos 4 dígitos].</div>
+                                            <div>Sin embargo, hoy queremos acercarle la solución de este tema.</div>
+                                            <div>Considerando que, en ciertas ocasiones, circunstancias económicas ajenas a su voluntad pueden estar dificultando el normal cumplimiento de las obligaciones contraídas, Recuperos & Mandatos cuenta hoy con alternativas favorables para que esta deuda no sea ya para usted un motivo de preocupación. </div>
+                                            <div>Para asesorarse al respecto, y aprovechar esta última oportunidad, necesitamos que se comunique con nosotros telefónicamente al Nro. 011 3985-7310, por mail: amexcobranzas@recuperosymandatos.com de 09hs a 20hs.</div>
+                                            <div>A la espera de su pronta respuesta y quedando usted debidamente notificado.</div>
+                                            <div><img class="img2" src="http://recuperosymandatos.com.ar/wp-content/uploads/2020/06/liderazgo_experiencia.jpg" alt=""></div>
+                                            <div class="footer">Para garantizar la seguridad de su correo electrónico por favor no responda este E-mail. Para saber cómo obtenemos, aseguramos y utilizamos su información personal, cumpliendo con la Ley N° 25.326, visite la declaración sobre privacidad ingresando a nuestra web: https://recuperosymandatos.com/aviso-de-privacidad/  </div>
+                                            <!--fin del cuerpo de mensaje-->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top">&nbsp;</td>
+        </tr>
+        </table>
+    </body>
+</html>
